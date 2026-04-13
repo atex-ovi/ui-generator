@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+
+:root {
+  --dracula-bg: #191a21;
+  --dracula-soft: #282a36;
+  --dracula-purple: #bd93f9;
+  --dracula-pink: #ff79c6;
+  --dracula-green: #50fa7b;
+  --dracula-fg: #f8f8f2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  background: #44475a;
+  height: 4px;
+  border-radius: 2px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #bd93f9;
+  cursor: pointer;
+}
