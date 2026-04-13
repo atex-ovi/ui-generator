@@ -1,7 +1,16 @@
+<div align="center">
+
 # UI Generator
 
-A professional UI component and CSS effect generator built with Next.js, TypeScript, and Tailwind CSS. Generate beautiful CSS effects in real-time with live preview and copy-to-clipboard functionality.
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
+[![Lucide Icons](https://img.shields.io/badge/Lucide_Icons-FFC107?style=for-the-badge&logo=lucide&logoColor=black)](https://lucide.dev/)
 
+</div>
+A professional UI component and CSS effect generator built with Next.js, TypeScript, and Tailwind CSS. Generate beautiful CSS effects in real-time with live preview and copy-to-clipboard functionality.
 ## Features
 
 - Box Shadow Generator with real-time preview
