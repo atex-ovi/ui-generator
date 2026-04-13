@@ -24,7 +24,7 @@ export default function Home() {
             <Sparkles className="w-16 h-16 text-[#bd93f9]" />
           </div>
           <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-[#bd93f9] to-[#ff79c6] bg-clip-text text-transparent mb-3">
-            UI Component Generator
+            UI Generator
           </h1>
           <p className="text-[#f8f8f2] text-lg opacity-80">
             Generate beautiful CSS effects in real-time
