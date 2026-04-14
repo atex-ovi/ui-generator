@@ -24,12 +24,12 @@ A professional UI component and CSS effect generator built with Next.js, TypeScr
     <td><img src="./assets/ts.jpg" width="150" alt="Text Shadow"></td>
   </tr>
   <tr align="center">
-  <td><small>Box Shadow</small></td>
-  <td><small>Border Radius</small></td>
-  <td><small>Glassmorphism</small></td>
-  <td><small>Gradient</small></td>
-  <td><small>Text Shadow</small></td>
-  </tr>
+  <td><sub>Box Shadow</sub></td>
+  <td><sub>Border Radius</sub></td>
+  <td><sub>Glassmorphism</sub></td>
+  <td><sub>Gradient</sub></td>
+  <td><sub>Text Shadow</sub></td>
+</tr>
 </table>
 
 ## Features
