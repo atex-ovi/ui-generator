@@ -83,6 +83,7 @@ http://localhost:3000
 > [!NOTE]
 > After clone the repositories, you can run:
 ```bash
+cd ui-generator
 ./script/setup.sh
 ```
 
