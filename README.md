@@ -1,4 +1,15 @@
+<div align="center">
+
 # UI Generator
+
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
+[![Lucide Icons](https://img.shields.io/badge/Lucide_Icons-FFC107?style=for-the-badge&logo=lucide&logoColor=black)](https://lucide.dev/)
+
+</div>
 
 A professional UI component and CSS effect generator built with Next.js, TypeScript, and Tailwind CSS. Generate beautiful CSS effects in real-time with live preview and copy-to-clipboard functionality.
 
@@ -6,9 +17,9 @@ A professional UI component and CSS effect generator built with Next.js, TypeScr
 
 - Box Shadow Generator with real-time preview
 - Border Radius Generator with linked/unlinked corners
-- Glassmorphism Generator (Coming Soon)
-- Gradient Generator (Coming Soon)
-- Text Shadow Generator (Coming Soon)
+- Glassmorphism Generator
+- Gradient Generator
+- Text Shadow Generator
 - Live CSS code generation
 - One-click copy to clipboard
 - Dracula theme design
@@ -30,6 +41,17 @@ A professional UI component and CSS effect generator built with Next.js, TypeScr
 - npm or yarn or pnpm
 
 ### Setup
+
+#### Option 1: Using setup script (recommended)
+
+```bash
+./script/setup.sh
+```
+
+> [!TIP]
+> If you encounter a permission error, run: chmod +x script/setup.sh
+
+#### Option 2: Manual setup
 
 1. Clone the repository
 
@@ -53,6 +75,7 @@ npm run dev
 4. Open your browser and navigate to
 
 http://localhost:3000
+
 
 ## Usage
 
@@ -82,6 +105,20 @@ npm run build
 npm start
 ```
 
+## Contributing
+
+Contributions are welcome! If you want to develop or improve UI Generator:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+Feel free to open issues for bugs or feature requests.
+
+Happy coding!
+
 ## License
 
 MIT License
@@ -105,7 +142,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-## Contributing
-
-Contributions are welcome. Please open an issue or submit a pull request.

@@ -4,6 +4,9 @@ import { useState } from 'react';
 import { Box, Square, Layers, Sparkles, Palette, Type } from 'lucide-react';
 import BoxShadowGenerator from '../components/generators/BoxShadowGenerator';
 import BorderRadiusGenerator from '../components/generators/BorderRadiusGenerator';
+import GlassmorphismGenerator from '../components/generators/GlassmorphismGenerator';
+import GradientGenerator from '../components/generators/GradientGenerator';
+import TextShadowGenerator from '../components/generators/TextShadowGenerator';
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState<'boxshadow' | 'borderradius' | 'glassmorphism' | 'gradient' | 'textshadow'>('boxshadow');
@@ -24,7 +27,7 @@ export default function Home() {
             <Sparkles className="w-16 h-16 text-[#bd93f9]" />
           </div>
           <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-[#bd93f9] to-[#ff79c6] bg-clip-text text-transparent mb-3">
-            UI Component Generator
+            UI Generator
           </h1>
           <p className="text-[#f8f8f2] text-lg opacity-80">
             Generate beautiful CSS effects in real-time
@@ -54,27 +57,9 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           {activeTab === 'boxshadow' && <BoxShadowGenerator />}
           {activeTab === 'borderradius' && <BorderRadiusGenerator />}
-          {activeTab === 'glassmorphism' && (
-            <div className="bg-[#282a36] rounded-2xl p-12 border border-[#44475a] text-center">
-              <Layers className="w-12 h-12 text-[#bd93f9] mx-auto mb-4" />
-              <p className="text-[#f8f8f2] text-lg">Glassmorphism Generator</p>
-              <p className="text-[#6272a4] text-sm mt-2">Coming soon...</p>
-            </div>
-          )}
-          {activeTab === 'gradient' && (
-            <div className="bg-[#282a36] rounded-2xl p-12 border border-[#44475a] text-center">
-              <Palette className="w-12 h-12 text-[#bd93f9] mx-auto mb-4" />
-              <p className="text-[#f8f8f2] text-lg">Gradient Generator</p>
-              <p className="text-[#6272a4] text-sm mt-2">Coming soon...</p>
-            </div>
-          )}
-          {activeTab === 'textshadow' && (
-            <div className="bg-[#282a36] rounded-2xl p-12 border border-[#44475a] text-center">
-              <Type className="w-12 h-12 text-[#bd93f9] mx-auto mb-4" />
-              <p className="text-[#f8f8f2] text-lg">Text Shadow Generator</p>
-              <p className="text-[#6272a4] text-sm mt-2">Coming soon...</p>
-            </div>
-          )}
+          {activeTab === 'glassmorphism' && <GlassmorphismGenerator />}
+          {activeTab === 'gradient' && <GradientGenerator />}
+          {activeTab === 'textshadow' && <TextShadowGenerator />}
         </div>
       </div>
     </main>
