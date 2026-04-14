@@ -10,14 +10,35 @@
 [![Lucide Icons](https://img.shields.io/badge/Lucide_Icons-FFC107?style=for-the-badge&logo=lucide&logoColor=black)](https://lucide.dev/)
 
 </div>
+
 A professional UI component and CSS effect generator built with Next.js, TypeScript, and Tailwind CSS. Generate beautiful CSS effects in real-time with live preview and copy-to-clipboard functionality.
+
+## Demo / Screenshot
+
+<table>
+  <tr>
+    <td><img src="./assets/bs.jpg" width="150" alt="Box Shadow"></td>
+    <td><img src="./assets/br.jpg" width="150" alt="Border Radius"></td>
+    <td><img src="./assets/gm.jpg" width="150" alt="Glassmorphism"></td>
+    <td><img src="./assets/gd.jpg" width="150" alt="Gradient"></td>
+    <td><img src="./assets/ts.jpg" width="150" alt="Text Shadow"></td>
+  </tr>
+  <tr align="center">
+    <td>Box Shadow</td>
+    <td>Border Radius</td>
+    <td>Glassmorphism</td>
+    <td>Gradient</td>
+    <td>Text Shadow</td>
+  </tr>
+</table>
+
 ## Features
 
 - Box Shadow Generator with real-time preview
 - Border Radius Generator with linked/unlinked corners
-- Glassmorphism Generator (Coming Soon)
-- Gradient Generator (Coming Soon)
-- Text Shadow Generator (Coming Soon)
+- Glassmorphism Generator
+- Gradient Generator
+- Text Shadow Generator
 - Live CSS code generation
 - One-click copy to clipboard
 - Dracula theme design
@@ -39,6 +60,8 @@ A professional UI component and CSS effect generator built with Next.js, TypeScr
 - npm or yarn or pnpm
 
 ### Setup
+
+#### Option 1: Manual setup
 
 1. Clone the repository
 
@@ -62,6 +85,19 @@ npm run dev
 4. Open your browser and navigate to
 
 http://localhost:3000
+
+#### Option 2: Using setup script (recommended)
+> [!NOTE]
+> After clone the repositories, you can run:
+```bash
+./script/setup.sh
+```
+
+> [!TIP]
+> If you encounter a permission error, run:
+```bash
+chmod +x script/setup.sh
+```
 
 ## Usage
 
@@ -91,6 +127,20 @@ npm run build
 npm start
 ```
 
+## Contributing
+
+Contributions are welcome! If you want to develop or improve UI Generator:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+Feel free to open issues for bugs or feature requests.
+
+Happy coding!
+
 ## License
 
 MIT License
@@ -114,8 +164,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-## Contributing
-
-Contributions are welcome. Please open an issue or submit a pull request.
-
