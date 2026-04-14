@@ -17,18 +17,18 @@ A professional UI component and CSS effect generator built with Next.js, TypeScr
 
 <table align="center">
   <tr align="center">
-    <td width="150"><img src="./assets/bs.jpg" width="150" alt="Box Shadow"></td>
-    <td width="150"><img src="./assets/br.jpg" width="150" alt="Border Radius"></td>
-    <td width="150"><img src="./assets/gm.jpg" width="150" alt="Glassmorphism"></td>
-    <td width="150"><img src="./assets/gd.jpg" width="150" alt="Gradient"></td>
-    <td width="150"><img src="./assets/ts.jpg" width="150" alt="Text Shadow"></td>
+    <td width="150"><img src="./assets/bs.jpg" width="150" height="300" style="object-fit: cover;" alt="Box Shadow"></td>
+    <td width="150"><img src="./assets/br.jpg" width="150" height="300" style="object-fit: cover;" alt="Border Radius"></td>
+    <td width="150"><img src="./assets/gm.jpg" width="150" height="300" style="object-fit: cover;" alt="Glassmorphism"></td>
+    <td width="150"><img src="./assets/gd.jpg" width="150" height="300" style="object-fit: cover;" alt="Gradient"></td>
+    <td width="150"><img src="./assets/ts.jpg" width="150" height="300" style="object-fit: cover;" alt="Text Shadow"></td>
   </tr>
   <tr align="center">
-    <td width="150"><sub>Box Shadow</sub></td>
-    <td width="150"><sub>Border Radius</sub></td>
-    <td width="150"><sub>Glassmorphism</sub></td>
-    <td width="150"><sub>Gradient</sub></td>
-    <td width="150"><sub>Text Shadow</sub></td>
+    <td><sub>Box Shadow</sub></td>
+    <td><sub>Border Radius</sub></td>
+    <td><sub>Glassmorphism</sub></td>
+    <td><sub>Gradient</sub></td>
+    <td><sub>Text Shadow</sub></td>
   </tr>
 </table>
 
